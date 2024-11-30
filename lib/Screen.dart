@@ -33,7 +33,7 @@ class _DatabaseScreenState extends State<DatabaseScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Notes"),centerTitle: true,backgroundColor: Colors.blue,),
+      appBar: AppBar(title: Text("Notes"),centerTitle: true,backgroundColor: Colors.red,),
       // all note visible here
       body: allNotes.isNotEmpty ? ListView.builder(
         itemCount: allNotes.length,
